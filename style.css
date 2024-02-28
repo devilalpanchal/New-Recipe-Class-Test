@@ -3,13 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+/************* navbar-section *************/
 .flex{
     display: flex;
     justify-content: start;
     align-items: center;
 }
 .navbar-first {
-    gap: 700px;
+    gap: 800px;
 }
 .navbar-section{
     margin-top: 20px;
@@ -33,4 +34,33 @@
 
 .navbar-home:hover,.navbar-Explore:hover,.navbar-Help:hover{
     color: rgb(27, 233, 8);
+}
+
+
+
+/************* image-section *******************/
+.Image-section{
+    margin-left: 50px;
+    border-radius: 20px;
+}
+.Image-section{
+    margin-top: 50px;
+}
+.above-image-text{
+    color:white ;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 100px;
+}
+.trending{
+    color:red ;
+}
+.famous{
+    font-size: 35px;
+    width: 300px;
+}
+.name{
+    font-size: 20px;
 }
