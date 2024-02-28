@@ -174,7 +174,7 @@ button {
     margin-bottom: 20px;
 }
 .rate{
-    font-size: 15px;
+    font-size: 18px;
     margin-bottom: 10px;
 }
 .filter{
@@ -254,5 +254,87 @@ button {
 
 /* ************************Card1 Design *********************/
 .Card1{
-    margin-top: 60px;
+    margin-top: 80px;
+    margin-left: 80px;
+
+width: 200px;
+height: 100%;
+display: grid;
+
+grid-template-columns: 1fr 1fr 1fr ;
+gap: 60px;
 }
+.imageIn-javascript{
+    width: 220px;
+    height: 160px;
+    border-radius: 15px;
+}
+
+
+  /*********************FOTTER-SECTION *******************/
+  .fotter{
+    margin-top: 50px;
+    display: flex;
+    gap: 161px;
+    margin-left: 50px;
+  }
+  .logopara{
+    margin-top: 10px;
+    width: 250px;
+  }
+ 
+  .image-logo2{
+    width: 100px;
+    height: 50px;
+  }
+  .company,.resource{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .subscrube-para{
+    width: 300px;
+margin-top: 10px;
+    color: rgb(127, 129, 129);
+  }
+  .input-button{
+    margin-top: 10px;
+display: flex;
+gap: 10px;
+  }
+  .input-last{
+    width: 160px;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+  }
+  .subscribe-btn{
+    width: 100px;
+    padding: 11px;
+    background: #509E2F;
+    color: white;
+    border-radius: 5px;
+  }
+
+  /******* to profile section ******/
+  .profile{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .fa-brands:hover{
+    border: 1px solid blue;
+    padding: 5px;
+
+  }
+  .adtherade{
+    position: absolute;
+    right: 210px;
+    top: 975px;
+  }
+  
+
+
+    
