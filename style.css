@@ -1,66 +1,258 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-/************* navbar-section *************/
-.flex{
+
+
+/**************** navbar-section *****************/
+.flex {
     display: flex;
     justify-content: start;
     align-items: center;
 }
+
 .navbar-first {
     gap: 800px;
 }
-.navbar-section{
+
+.navbar-section {
     margin-top: 20px;
     margin-left: 50px;
 }
+
 .navbar-center {
     gap: 30px;
 }
-.navbar{
+
+.navbar {
     gap: 50px;
 }
-.logo{
+
+.logo {
     width: 150px;
     height: 60px;
 }
-.photo-image{
+
+.photo-image {
     width: 40px;
     height: 40px;
     border-radius: 50%;
 }
 
-.navbar-home:hover,.navbar-Explore:hover,.navbar-Help:hover{
+.navbar-home:hover,
+.navbar-Explore:hover,
+.navbar-Help:hover {
     color: rgb(27, 233, 8);
 }
 
 
-
-/************* image-section *******************/
-.Image-section{
+/*************** image-section *******************/
+.Image-section {
     margin-left: 50px;
     border-radius: 20px;
+    background-image: url(./images/background.png);
+    width: 90%;
+    height: 50vh;
+    background-size: cover;
+    background-position: 10%;
 }
-.Image-section{
-    margin-top: 50px;
-}
-.above-image-text{
-    color:white ;
+
+.above-image-text {
+    color: white;
     font-size: 25px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 100px;
+    margin: 30px;
+    margin-left: 70px;
 }
-.trending{
-    color:red ;
+
+.trending {
+    margin-top: 65px;
+    color: red;
 }
-.famous{
-    font-size: 35px;
-    width: 300px;
+
+.famous {
+    font-size: 38px;
+    width: 350px;
 }
-.name{
+
+.name {
+    font-size: 25px;
+    color: rgb(78, 76, 75);
+}
+
+.input-container {
+    margin-top: 130px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.search-name {
     font-size: 20px;
+    font-weight: 500;
+}
+
+.search-input {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+.search-icon {
+    position: absolute;
+    right: 86px;
+    top: 496px;
+    background: green;
+    padding: 8.8px;
+    font-size: 20px;
+}
+
+
+/************************ Button - Section *******************/
+.button {
+    margin-top: 130px;
+    display: flex;
+    justify-content: start;
+    margin-left: 50px;
+    gap: 20px;
+}
+
+button {
+    padding: 20px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.btn1 {
+    background: #EAAA00;
+}
+
+.btn2 {
+    background: #C4D600;
+}
+
+.btn3 {
+    background: #DC582A;
+}
+
+.first {
+    position: absolute;
+    left: 210px;
+    top: 587px;
+    color: white;
+}
+
+.second {
+    position: absolute;
+    left: 440px;
+    top: 587px;
+    color: white;
+
+}
+
+.third {
+    position: absolute;
+    left: 660px;
+    top: 587px;
+    color: white;
+}
+
+
+/****************** filter and image container *****************/
+.image-container {
+    display: flex;
+    margin-left: 55px;
+}
+.file{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.rate{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.filter{
+    margin-top: 50px;
+}
+
+/**************** check button **************/
+/* The container */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked~.checkmark {
+    background-color: #2196F3;
+    border-radius: 5px;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/* ************************Card1 Design *********************/
+.Card1{
+    margin-top: 60px;
 }
