@@ -169,15 +169,18 @@ button {
     display: flex;
     margin-left: 55px;
 }
-.file{
+
+.file {
     font-size: 25px;
     margin-bottom: 20px;
 }
-.rate{
+
+.rate {
     font-size: 18px;
     margin-bottom: 10px;
 }
-.filter{
+
+.filter {
     margin-top: 50px;
 }
 
@@ -253,88 +256,139 @@ button {
 }
 
 /* ************************Card1 Design *********************/
-.Card1{
-    margin-top: 80px;
-    margin-left: 80px;
 
-width: 200px;
-height: 100%;
-display: grid;
-
-grid-template-columns: 1fr 1fr 1fr ;
-gap: 60px;
+.Card1 {
+    margin-top: 70px;
+    margin-left: 201px;
+    width: 200px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 35px;
 }
-.imageIn-javascript{
-    width: 220px;
+
+.imageIn-javascript {
+    width: 250px;
     height: 160px;
     border-radius: 15px;
 }
+.name-like{
+    margin-top: 5px;
+    display: flex;
+    gap: 90px;
+}
+.time-rate{
+    margin-top: 5px;
+    display: flex;
+    gap: 110px;
+    margin-left: 8px;
+
+}
+.name-food{
+    font-size: 15px;
+    font: bolder;
+    font-weight: 600;
+    margin-left: 8px;
+
+}
+.type{
+    margin-left: 8px;
+
+}
+.time1{
+    color: red;
+}
+
+.full-image-container{
+    width: 100%; 
+    height: 270px;
+    border: 1px solid rgb(240, 234, 234);
+    padding: 11px;
+    border-radius: 10px;
+    border-radius: 50px;
+    border-radius: 14px;
+    background: #fcf7f7;
+    box-shadow:  9px 9px 18px #eeebeb,
+                 -9px -9px 18px #fffefe;
+ }
 
 
-  /*********************FOTTER-SECTION *******************/
-  .fotter{
+/*********************FOTTER-SECTION *******************/
+.fotter {
     margin-top: 50px;
     display: flex;
     gap: 161px;
     margin-left: 50px;
-  }
-  .logopara{
+}
+
+.logopara {
     margin-top: 10px;
     width: 250px;
-  }
- 
-  .image-logo2{
+}
+
+.image-logo2 {
     width: 100px;
     height: 50px;
-  }
-  .company,.resource{
+}
+
+.company,
+.resource {
     display: flex;
     flex-direction: column;
     gap: 15px;
-  }
-  .subscrube-para{
+}
+
+.subscrube-para {
     width: 300px;
-margin-top: 10px;
-    color: rgb(127, 129, 129);
-  }
-  .input-button{
     margin-top: 10px;
-display: flex;
-gap: 10px;
-  }
-  .input-last{
+    color: rgb(127, 129, 129);
+}
+
+.input-button {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.input-last {
     width: 160px;
     padding: 5px;
     outline: none;
     border-radius: 5px;
-  }
-  .subscribe-btn{
+}
+
+.subscribe-btn {
     width: 100px;
     padding: 11px;
     background: #509E2F;
     color: white;
     border-radius: 5px;
-  }
+}
+.adtherade {
+    position: absolute;
+    right: 210px;
+    top: 2268px;
+}
 
-  /******* to profile section ******/
-  .profile{
+/******* to profile section ******/
+.profile {
     display: flex;
     justify-content: center;
     gap: 30px;
     margin-top: 20px;
     margin-bottom: 30px;
-  }
-  .fa-brands:hover{
+}
+
+.fa-brands:hover {
     border: 1px solid blue;
     padding: 5px;
 
-  }
-  .adtherade{
-    position: absolute;
-    right: 210px;
-    top: 975px;
-  }
-  
+}
+
+.coded{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
-    
