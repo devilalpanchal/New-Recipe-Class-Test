@@ -367,7 +367,7 @@ button {
 .adtherade {
     position: absolute;
     right: 210px;
-    top: 2268px;
+    top: 2350px;
 }
 
 /******* to profile section ******/
@@ -389,6 +389,18 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.coded>a{
+    color: rgb(247, 0, 255);
+
+}
+
+
+/************ Media Querry ***************/
+@media screen and (min-width:375px) {
+    /**** navbar *****/
+
+    
 }
 
 

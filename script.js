@@ -157,11 +157,81 @@ function getContainer(arr, container) {
     container.innerHTML = newData.join('')
 
     if (arr.length <= 0) {
-        return (container.innerHTML = `<h2>item not found</h2>`)
+        return (container.innerHTML = `<h4>search Right  item not found</h4>`)
     }
 }
 
 window.addEventListener('DOMContentLoaded', getContainer(AllImages, Card1))
 
+
+// to Search Engine to search Name
+
+const btn = document.querySelector('.fa-brands')
+const input = document.querySelector('.search-input')
+console.log(btn)
+
+btn.addEventListener('click', () => {
+    let value = input.value.toLowerCase()
+    console.log(value)
+    let newArray = a.filter((item) =>
+        item.name.toLowerCase().includes(value)
+    )
+
+    console.log(newArray)
+    getContainer(newArray, tbody)
+})
+
+// When we press button of any alfabets after then comes this key in search input
+input.addEventListener('keyup', () => {
+    let value = input.value
+    console.log(value)
+    let newArray = AllImages.filter((item) =>
+        item.name.toLowerCase().includes(value)
+    )
+
+    console.log(newArray)
+    getContainer(newArray, Card1)
+
+})
+
+///////   to  vage food code /////////
+
+const btn1 = document.querySelector('.btn1')
+const btn2 = document.querySelector('.btn2')
+const btn3 = document.querySelector('.btn3')
+
+btn1.addEventListener('click', () => {
+        setTimeout(() => {
+            document.location.reload();
+          }, 10);
+})
+
+btn2.addEventListener('click', () => {
+
+    let sortedArray = AllImages.sort((a, b) => {
+        if (a.type > b.type) {
+            return -1
+        } else if (a.type < b.type) {
+            return 0;
+        }
+    })
+    console.log(sortedArray)
+    getContainer(sortedArray, Card1)
+})
+
+///////   to non-vage food code /////////
+
+btn3.addEventListener('click', () => {
+
+    let sortedArray = AllImages.sort((a, b) => {
+        if (a.type > b.type) {
+            return 1
+        } else if (a.type < b.type) {
+            return -1
+        }
+    })
+    console.log(sortedArray)
+    getContainer(sortedArray, Card1)
+})
 
 
