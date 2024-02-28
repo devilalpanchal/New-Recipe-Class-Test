@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.navbar-first {
+    gap: 700px;
+}
+.navbar-section{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.navbar-center {
+    gap: 30px;
+}
+.navbar{
+    gap: 50px;
+}
+.logo{
+    width: 150px;
+    height: 60px;
+}
+.photo-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.navbar-home:hover,.navbar-Explore:hover,.navbar-Help:hover{
+    color: rgb(27, 233, 8);
+}
