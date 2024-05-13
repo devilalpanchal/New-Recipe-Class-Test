@@ -9,8 +9,8 @@
 # Fotter Page
 ### Stay connected with us till the last bite! Our Footer Page provides essential links and information, ensuring you have everything you need for a delightful ordering experience. From contact details to FAQs, we've got you covered from start to finish.
 ![NEW03](https://github.com/devilalpanchal/New-Recipe-Class-Test/assets/144801878/48ca8551-7295-4b73-b0fb-e1e0b67b7fab)
-😎✈✈✈😂
-Thank you for exploring our Online Food Order Website ! We're thrilled to share our passion for great food and seamless online ordering with you. Your support means the world to us. Bon appétit and happy ordering!
+# 😎✈✈✈😂
+### Thank you for exploring our Online Food Order Website ! We're thrilled to share our passion for great food and seamless online ordering with you. Your support means the world to us. Bon appétit and happy ordering!
 
 Warm regards,
 [Devilal Panchal]
